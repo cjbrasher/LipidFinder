@@ -2,8 +2,7 @@
 --index-url https://pypi.python.org/simple/
 
 cycler >= 0.10.0
-ipython >= 5.6.0 ; python_version < '3.0'
-ipython >= 6.1.0 ; python_version >= '3.0'
+ipython >= 6.1.0
 ipywidgets >= 7.0.0
 matplotlib >= 2.1.0
 numpy >= 1.13.3

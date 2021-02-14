@@ -4,6 +4,10 @@
 ((( cell.source | replace('<br><br>','\n\n') | citation2latex | strip_files_prefix | markdown2latex )))
 ((* endblock markdowncell *))
 
+((* block title *))
+\title{LipidFinder 2 manual}
+((* endblock title *))
+
 ((* block author *))
 \author{Jorge Alvarez-Jarreta\\
   \texttt{lipidfinder@cardiff.ac.uk}}
@@ -17,3 +21,4 @@
 \bibliographystyle{abbrv}
 \bibliography{my_bibliography}
 ((* endblock bibliography *))
+
